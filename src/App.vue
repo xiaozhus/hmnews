@@ -1,10 +1,15 @@
 <template>
-  <div id="app">
-    App ---
-    <van-button type="warning">警告按钮</van-button>
+  <div>
     <router-view></router-view>
   </div>
+
 </template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
 <style scoped lang="less">
 
